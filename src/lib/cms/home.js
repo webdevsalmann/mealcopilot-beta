@@ -1,5 +1,4 @@
 import { CigaretteOff, CreditCard, Map, MapPin, PackageCheck, SlidersVertical, Thermometer, Utensils, Video, Zap, } from "lucide-react";
-import Link from "next/link";
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -187,7 +186,15 @@ export const about = {
         "Real Time Tracking",
         "Cost Efficient",
         "Eco-friendly",
+    ],
+
+    images: [
+        "/images/drones/1.jpg",
+        "/images/drones/2.jpg",
+        "/images/drones/3.jpg",
+        "/images/drones/4.jpg",
     ]
+
 }
 
 

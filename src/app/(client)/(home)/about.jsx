@@ -9,23 +9,22 @@ import { CheckCheck } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export default function About() {
     return (
         <Section
             sectionClassName="bg-gradient-to-t from-secondary to-transparent"
             className="grid gap-block md:grid-cols-2" id="about">
             <div className="grid gap-base grid-cols-2">
-                {[1, 2, 3, 4].map((item, i) => (
+                {about.images.map((item, i) => (
                     <FadeUp
                         transition={{
                             type: "spring",
                             delay: 0.3 * i
                         }}
-                        key={item + "About Images"}>
+                        key={item + "AboutImages"}>
                         <Image
                             className="w-full rounded object-center object-cover aspect-square"
-                            src={`/images/drones/${item}.jpg`}
+                            src={item}
                             height={200}
                             width={200}
                             alt="Drone Image"
